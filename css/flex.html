@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-con{
+            display: flex;
+            height: 200px;
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            /* justify-content: space-around; */
+            background-color: blueviolet;
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            /* align-items: stretch; */
+            /* align-items: baseline; */
+            flex-wrap: wrap;
+
+        }
+        .flex-con div{
+            width: 199px;
+            margin: 10px;
+            text-align: center;
+            background-color: azure;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>create a flex-con</h1>
+    <div class="flex-con">
+        <!-- <div style="order: 3;">1</div> -->
+        <!-- <divn style="flex-basis: 500px;">2</divn> -->
+        <!-- <div style="flex-grow: 8;">3</div> -->
+        <!-- <div style="flex-shrink: 0;">4</div> -->
+        <div>1</div>
+        <div>2</div>
+        <div style="align-self: flex-start;">3</div>
+        <div style="align-self: center;">4</div>    
+        <div style="flex: 0 0  20px; align-self: flex-end;" >5</div>
+        
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* position- relative , absulate, static , fixed , sticky*/
+        body{
+            background-color: bisque;
+            height: 3444px;
+        }
+        .box{
+            display: inline-block;
+           border: 2px solid red;
+           width: 140px;
+           height: 140px;
+           margin: 2px;
+        }
+       /* #box3{
+             when we applay a relative position than we also use the top,bottom,right,left 
+            position:  relative;
+            top: 20px;
+            
+        }
+        #box2{
+            position: absolute;
+        }*/
+        /* #box3{
+            position:fixed;
+            right: 4px;
+        } */
+        #box1{
+            position:absolute;
+            top: 30px;
+        }
+        .box11{
+            position: relative;
+              height: 200px; 
+            border: 2px solid black;
+              width: 300px; 
+              top: 500px;
+     }
+        
+    </style>
+</head>
+<body>
+  
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+    <div class="box11">
+        <div class="box" id="box1">1</div>
+    </div>
+    
+</body>
+</html>

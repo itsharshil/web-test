@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive hidden content</title>
+    <style>
+        .hide{
+            display: flex;
+        }
+        .disp{
+            display: none;
+        }
+        @media all and (max-width:800px)
+        {
+            .hide{
+                display: none;
+            }
+            .disp{
+                display: flex;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="cls">
+        <div class="hide">
+            <p style="color: aqua;">Welcom </p>
+        </div>
+        <div class="disp" style="color: blue;">
+            Sorry thats page not respond
+        </div>
+    </div>
+</body>
+</html>

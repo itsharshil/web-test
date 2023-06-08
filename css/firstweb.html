@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARTED-Tamplate</title>
+    <link rel="icon" href="./img/logo.svg" type="image/icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .head {
+            display: flex;
+
+            justify-content: space-around;
+
+        }
+
+        .navi1 ul {
+            display: flex;
+
+            justify-content: space-between;
+
+        }
+
+        .navi2 ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        li {
+            list-style-type: none;
+        }
+
+
+        a {
+            color: grey;
+            text-decoration: none;
+            padding: 10px;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        .but {
+            padding: 13px 14px;
+            background-color: rgb(41, 41, 197);
+
+        }
+
+        .navi2 :hover {
+            /* background-color: rgb(204, 204, 204); */
+            padding: 10px 14px;
+
+        }
+
+        .head {
+            margin-bottom: 20px;
+        }
+
+        div .gs {
+            padding: 13px 14px;
+            background-color: rgb(41, 41, 197);
+        }
+
+        .cs {
+            padding: 13px 14px;
+            border: solid 1px gray;
+        }
+
+        .con {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .c1 {
+            font-size: x-large;
+            list-style-type: decimal;
+        }
+
+        .c {
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .rc1 {
+            font-size: x-large;
+        }
+
+        .prrc {
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .ear:hover {
+            border-radius: 250px;
+        }
+
+        .chess:hover {
+            border-radius: 250px;
+        }
+
+        .clock:hover {
+            border-radius: 250px;
+
+        }
+
+        .casestudy:hover {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="head">
+                <div class="navi1">
+                    <ul>
+                        <img src="./img/logo.svg" alt="" width="50px">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li> <a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="navi2">
+                    <ul>
+                        <li><a href="#">Contact Sales</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#" class="but">Ge Started</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <pre style="text-align: center; font-size:100px; font-family: 'Times New Roman', Times, serif;">Your website,
+beyond 
+expectations</pre>
+        <pre
+            style="text-align: center; font-size:30px; color: grey ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    Make your website wonderful and build
+     beyond your expectations.
+</pre>
+        <div style="text-align:center;"><a class="gs" href="#">Get Started</a>or <a class="cs" href="#">Contact Us</a>
+        </div>
+        <pre
+            style="text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">THESE FOLKS GET IT</pre>
+
+        <div class="him"
+            style=" display: flex ; flex-direction: row; justify-content:space-around; margin-left: 180px; margin-right: 180px;">
+            <div>
+                <svg id="aws_svg__Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 304 182"
+                    xml:space="preserve" class="m-12 mb-8" width="120">
+                    <style>
+                        .aws_svg__st1 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #3c4758
+                        }
+                    </style>
+                    <path
+                        d="M86.4 66.4c0 3.7.4 6.7 1.1 8.9.8 2.2 1.8 4.6 3.2 7.2.5.8.7 1.6.7 2.3 0 1-.6 2-1.9 3L83.2 92c-.9.6-1.8.9-2.6.9-1 0-2-.5-3-1.4-1.4-1.5-2.6-3.1-3.6-4.7-1-1.7-2-3.6-3.1-5.9-7.8 9.2-17.6 13.8-29.4 13.8-8.4 0-15.1-2.4-20-7.2-4.9-4.8-7.4-11.2-7.4-19.2 0-8.5 3-15.4 9.1-20.6 6.1-5.2 14.2-7.8 24.5-7.8 3.4 0 6.9.3 10.6.8 3.7.5 7.5 1.3 11.5 2.2v-7.3c0-7.6-1.6-12.9-4.7-16-3.2-3.1-8.6-4.6-16.3-4.6-3.5 0-7.1.4-10.8 1.3-3.7.9-7.3 2-10.8 3.4-1.6.7-2.8 1.1-3.5 1.3-.7.2-1.2.3-1.6.3-1.4 0-2.1-1-2.1-3.1v-4.9c0-1.6.2-2.8.7-3.5.5-.7 1.4-1.4 2.8-2.1 3.5-1.8 7.7-3.3 12.6-4.5C41 1.9 46.2 1.3 51.7 1.3c11.9 0 20.6 2.7 26.2 8.1 5.5 5.4 8.3 13.6 8.3 24.6v32.4zM45.8 81.6c3.3 0 6.7-.6 10.3-1.8 3.6-1.2 6.8-3.4 9.5-6.4 1.6-1.9 2.8-4 3.4-6.4.6-2.4 1-5.3 1-8.7v-4.2c-2.9-.7-6-1.3-9.2-1.7-3.2-.4-6.3-.6-9.4-.6-6.7 0-11.6 1.3-14.9 4-3.3 2.7-4.9 6.5-4.9 11.5 0 4.7 1.2 8.2 3.7 10.6 2.4 2.5 5.9 3.7 10.5 3.7zm80.3 10.8c-1.8 0-3-.3-3.8-1-.8-.6-1.5-2-2.1-3.9L96.7 10.2c-.6-2-.9-3.3-.9-4 0-1.6.8-2.5 2.4-2.5h9.8c1.9 0 3.2.3 3.9 1 .8.6 1.4 2 2 3.9l16.8 66.2 15.6-66.2c.5-2 1.1-3.3 1.9-3.9.8-.6 2.2-1 4-1h8c1.9 0 3.2.3 4 1 .8.6 1.5 2 1.9 3.9l15.8 67 17.3-67c.6-2 1.3-3.3 2-3.9.8-.6 2.1-1 3.9-1h9.3c1.6 0 2.5.8 2.5 2.5 0 .5-.1 1-.2 1.6-.1.6-.3 1.4-.7 2.5l-24.1 77.3c-.6 2-1.3 3.3-2.1 3.9-.8.6-2.1 1-3.8 1h-8.6c-1.9 0-3.2-.3-4-1-.8-.7-1.5-2-1.9-4L156 23l-15.4 64.4c-.5 2-1.1 3.3-1.9 4-.8.7-2.2 1-4 1h-8.6zm128.5 2.7c-5.2 0-10.4-.6-15.4-1.8-5-1.2-8.9-2.5-11.5-4-1.6-.9-2.7-1.9-3.1-2.8-.4-.9-.6-1.9-.6-2.8v-5.1c0-2.1.8-3.1 2.3-3.1.6 0 1.2.1 1.8.3.6.2 1.5.6 2.5 1 3.4 1.5 7.1 2.7 11 3.5 4 .8 7.9 1.2 11.9 1.2 6.3 0 11.2-1.1 14.6-3.3 3.4-2.2 5.2-5.4 5.2-9.5 0-2.8-.9-5.1-2.7-7-1.8-1.9-5.2-3.6-10.1-5.2L246 52c-7.3-2.3-12.7-5.7-16-10.2-3.3-4.4-5-9.3-5-14.5 0-4.2.9-7.9 2.7-11.1 1.8-3.2 4.2-6 7.2-8.2 3-2.3 6.4-4 10.4-5.2 4-1.2 8.2-1.7 12.6-1.7 2.2 0 4.5.1 6.7.4 2.3.3 4.4.7 6.5 1.1 2 .5 3.9 1 5.7 1.6 1.8.6 3.2 1.2 4.2 1.8 1.4.8 2.4 1.6 3 2.5.6.8.9 1.9.9 3.3v4.7c0 2.1-.8 3.2-2.3 3.2-.8 0-2.1-.4-3.8-1.2-5.7-2.6-12.1-3.9-19.2-3.9-5.7 0-10.2.9-13.3 2.8-3.1 1.9-4.7 4.8-4.7 8.9 0 2.8 1 5.2 3 7.1 2 1.9 5.7 3.8 11 5.5l14.2 4.5c7.2 2.3 12.4 5.5 15.5 9.6 3.1 4.1 4.6 8.8 4.6 14 0 4.3-.9 8.2-2.6 11.6-1.8 3.4-4.2 6.4-7.3 8.8-3.1 2.5-6.8 4.3-11.1 5.6-4.5 1.4-9.2 2.1-14.3 2.1z"
+                        fill="#3c4758"></path>
+                    <path class="aws_svg__st1"
+                        d="M273.5 143.7c-32.9 24.3-80.7 37.2-121.8 37.2-57.6 0-109.5-21.3-148.7-56.7-3.1-2.8-.3-6.6 3.4-4.4 42.4 24.6 94.7 39.5 148.8 39.5 36.5 0 76.6-7.6 113.5-23.2 5.5-2.5 10.2 3.6 4.8 7.6z">
+                    </path>
+                    <path class="aws_svg__st1"
+                        d="M287.2 128.1c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4 53.3-5 3.6 4.5-1 35.4-18.6 50.2-2.7 2.3-5.3 1.1-4.1-1.9 4-9.9 12.9-32.2 8.7-37.5z">
+                    </path>
+                </svg>
+            </div>
+
+            <div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147 40" class="m-12" width="140">
+                    <g fill="#3C4758" fill-rule="evenodd">
+                        <path
+                            d="M53.37 12.98l.12 2.2a6.82 6.82 0 015.53-2.55c3.95 0 5.96 2.26 6.03 6.8V32h-4.26V19.68c0-1.21-.26-2.1-.78-2.69-.52-.58-1.37-.87-2.55-.87-1.72 0-3 .78-3.84 2.34V32h-4.26V12.98h4.01zm24.38 19.37a8.8 8.8 0 01-6.57-2.56c-1.68-1.7-2.52-3.97-2.52-6.8v-.54c0-1.9.37-3.6 1.1-5.08a8.13 8.13 0 017.5-4.74c2.58 0 4.58.82 5.99 2.48 1.4 1.65 2.11 3.99 2.11 7.01v1.72h-12.4a5.72 5.72 0 001.57 3.73 4.7 4.7 0 003.46 1.37c1.96 0 3.55-.79 4.77-2.37l2.3 2.2a7.68 7.68 0 01-3.04 2.64 9.5 9.5 0 01-4.27.94zm-.51-16.3c-1.17 0-2.11.42-2.83 1.24a6.38 6.38 0 00-1.38 3.42h8.12v-.31a5.2 5.2 0 00-1.14-3.25 3.56 3.56 0 00-2.77-1.1zm16.77-7.7v4.63h3.35v3.16H94v10.62c0 .73.14 1.25.43 1.57.28.33.8.49 1.53.49a6.55 6.55 0 001.49-.18v3.3c-.97.28-1.9.4-2.8.4-3.28 0-4.92-1.8-4.92-5.42V16.14h-3.12v-3.16h3.12V8.35H94zM105.14 32h-4.26V5h4.26v27zm9.17 0h-4.26V12.98h4.26V32zM109.8 8.04c0-.66.2-1.2.62-1.63.42-.44 1.01-.65 1.78-.65s1.37.21 1.8.65c.41.43.62.97.62 1.63a2.2 2.2 0 01-.63 1.6 2.4 2.4 0 01-1.79.65c-.77 0-1.36-.21-1.78-.64a2.22 2.22 0 01-.62-1.61zM120.45 32V16.14h-2.9v-3.16h2.9v-1.74c0-2.11.59-3.74 1.75-4.89 1.17-1.15 2.81-1.72 4.91-1.72.75 0 1.55.1 2.4.31l-.11 3.34a8.38 8.38 0 00-1.63-.13c-2.04 0-3.06 1.04-3.06 3.14v1.69h3.86v3.16h-3.86V32h-4.26zm17.87-6.12l3.86-12.9h4.54l-7.54 21.9c-1.16 3.2-3.12 4.8-5.9 4.8-.61 0-1.3-.1-2.04-.32v-3.3l.8.05c1.08 0 1.89-.2 2.43-.59a3.9 3.9 0 001.3-1.97l.6-1.64-6.66-18.93h4.6l4.01 12.9z">
+                        </path>
+                        <path fill-rule="nonzero"
+                            d="M27.89 14.13h-.02l-.02-.01a.11.11 0 01-.03-.1l.78-4.72 3.62 3.62-3.77 1.6a.08.08 0 01-.03.01h-.02l-.02-.01a1.72 1.72 0 00-.5-.38zm5.25-.28l3.88 3.87c.8.8 1.2 1.21 1.36 1.68l.05.2-9.26-3.92a.73.73 0 00-.02 0c-.03-.02-.08-.04-.08-.07 0-.04.05-.06.08-.07h.02l3.98-1.7zm5.13 7c-.2.38-.59.77-1.25 1.43l-4.37 4.37L27 25.47h-.03c-.05-.01-.1-.02-.1-.07a1.7 1.7 0 00-.66-1.2c-.02-.02-.02-.05 0-.08v-.02l1.06-6.52v-.03c0-.05.02-.1.06-.1a1.73 1.73 0 001.16-.67l.03-.03c.03-.01.07 0 .1.02l9.65 4.08zm-6.62 6.8l-7.19 7.19 1.23-7.56v-.04c.02-.03.05-.04.07-.05h.01a1.85 1.85 0 00.7-.52c.02-.03.05-.05.09-.06a.09.09 0 01.03 0l5.06 1.04zm-8.71 8.7l-.81.82-8.95-12.94a.42.42 0 00-.01-.02l-.03-.06.02-.04.01-.01.08-.13.02-.03c.01-.03.03-.05.05-.06.02-.01.05-.01.07 0l9.92 2.04a.16.16 0 01.08.03l.02.05a1.76 1.76 0 001.03 1.17c.03.02.01.05 0 .08a.24.24 0 00-.01.05l-1.49 9.06zm-1.7 1.7c-.59.59-.94.9-1.34 1.03a2 2 0 01-1.2 0c-.47-.15-.87-.55-1.68-1.36l-9-8.99 2.36-3.64a.15.15 0 01.04-.05c.02-.02.06-.01.09 0a2.43 2.43 0 001.64-.08c.02-.01.05-.02.07 0a.19.19 0 01.03.03l9 13.06zM7.17 27.86L5.1 25.8l4.07-1.74a.08.08 0 01.04 0c.03 0 .05.03.07.06a2.91 2.91 0 00.13.18l.01.02v.05l-2.26 3.5zM4.18 24.9l-2.6-2.61c-.45-.45-.77-.77-1-1.05l7.94 1.65a.84.84 0 00.03 0c.05.01.1.02.1.07s-.06.07-.1.09l-.03.01-4.34 1.84zm-4.05-5a2 2 0 01.09-.5c.15-.46.55-.86 1.36-1.67l3.34-3.34a2175.53 2175.53 0 004.62 6.69c.03.04.06.08.03.1-.15.17-.3.34-.4.53a.16.16 0 01-.05.07h-.04L.13 19.89zm5.68-6.4L10.3 9c.42.2 1.96.84 3.33 1.42l2.29.97c.03.01.06.03.07.06v.06a2 2 0 00.52 1.82c.03.03 0 .08-.02.11l-.02.03-4.56 7.06a.14.14 0 01-.04.05h-.09a2.27 2.27 0 00-.54-.07 3 3 0 00-.52.06h-.06a.21.21 0 01-.04-.06L5.8 13.5zm5.4-5.4l5.81-5.81c.8-.8 1.21-1.21 1.68-1.36a2 2 0 011.2 0c.47.15.87.55 1.68 1.36l1.26 1.26-4.14 6.4a.15.15 0 01-.04.05h-.1a2.1 2.1 0 00-1.91.37c-.03.03-.07.01-.1 0L11.2 8.08zm12.5-3.67l3.82 3.81-.92 5.7v.02a.14.14 0 010 .03l-.06.03a1.83 1.83 0 00-.54.28.15.15 0 00-.02.01l-.04.03a.11.11 0 01-.05 0l-5.81-2.48h-.02c-.03-.02-.08-.04-.08-.08a2.2 2.2 0 00-.3-.91c-.03-.05-.07-.1-.04-.14l4.06-6.3zm-3.93 8.6l5.45 2.31c.03.01.07.03.08.06a.1.1 0 010 .05l-.03.27v.15c0 .04-.04.06-.07.07h-.02l-12.14 5.18c-.02 0-.04 0-.05-.02-.03-.03 0-.07.02-.11a.76.76 0 00.02-.02l4.48-6.94v-.01c.03-.04.06-.1.11-.1l.04.02.29.02c.68 0 1.3-.33 1.69-.9a.16.16 0 01.03-.03c.03-.02.07-.01.1 0zm-6.25 9.19l12.28-5.24.04.01.18.16.02.02c.03.01.05.03.06.05v.03l-1.06 6.46v.03c0 .05-.01.1-.06.1a1.73 1.73 0 00-1.37.85l-.06.06c-.02.01-.05.01-.07 0l-9.8-2.01s-.14-.52-.16-.52z">
+                        </path>
+                    </g>
+                </svg></div>
+
+            <div> <svg viewBox="0 0 551 200" fill="none" class="m-12" width="140">
+                    <path
+                        d="M66.807 196.087c-16.197-.644-29.449-5.083-39.81-13.328-1.978-1.575-6.69-6.297-8.27-8.288-4.203-5.292-7.06-10.442-8.965-16.156-5.863-17.589-2.845-40.669 8.631-66 9.827-21.686 24.99-43.194 51.443-72.983 3.897-4.384 15.5-17.203 15.576-17.203.027 0-.605 1.097-1.4 2.433-6.88 11.54-12.764 25.13-15.97 36.897-5.15 18.881-4.53 35.084 1.819 47.648 4.38 8.655 11.887 16.153 20.33 20.297 14.779 7.253 36.418 7.853 62.844 1.755 1.819-.422 91.974-24.391 200.345-53.266C461.751 29.015 550.433 5.407 550.447 5.426c.03.025-251.777 107.942-382.494 163.928-20.701 8.864-26.237 11.103-35.969 14.525-24.878 8.75-47.163 12.925-65.177 12.208z"
+                        fill="#3C4758"></path>
+                </svg></div>
+            <div><svg viewBox="0 0 592 200" fill="none" class="m-12" width="140">
+                    <path
+                        d="M233.465 38.02v100.792l12.924.099v-48.02h31.177V78.217h-31.177V50.694h40.55V38.02h-53.474zm76.758 20.495c4.637 0 8.485-3.763 8.485-8.515 0-4.753-3.749-8.515-8.485-8.515-4.637 0-8.485 3.762-8.485 8.515 0 4.752 3.749 8.515 8.485 8.515zm-6.61 12.673v67.723h12.924V71.188h-12.924zm60.873-1.98c-17.167 0-29.105 14.554-29.105 31.881 0 17.327 11.938 31.881 29.105 31.881 7.893 0 14.306-2.97 19.042-8.02v9.01c.098 11.188-8.781 20.495-20.028 20.594h-.198c-4.143 0-8.188-1.584-11.444-3.861l-6.512 11.287c15.391 10 35.913 5.544 45.779-9.901 3.453-5.446 5.327-11.683 5.327-18.119V71.287h-12.924v6.04c-4.736-5.05-11.149-8.12-19.042-8.12zm-16.18 31.881c0-10.792 8.189-19.208 17.66-19.208 9.472 0 17.562 8.515 17.562 19.208 0 10.792-8.189 19.109-17.562 19.109-9.471 0-17.66-8.416-17.66-19.109zm94.714-19.208c-7.695.099-13.911 6.436-13.812 14.158v42.773h-12.925V71.089h12.925v6.237c3.946-5.247 10.063-8.217 16.673-8.118 9.077 0 16.082 4.455 20.029 11.386 4.538-7.03 12.233-11.287 20.521-11.386 14.7 0 23.876 11.88 23.876 26.633v42.971h-12.826V96.039c0-7.722-6.117-14.06-13.813-14.158-7.695.099-13.911 6.436-13.812 14.158v42.773h-13.023V96.039c0-7.722-6.117-14.06-13.813-14.158zm136.152-3.07c-5.92-6.237-14.207-9.702-22.791-9.603-19.238 0-32.854 16.336-32.854 35.742 0 19.505 13.616 35.743 32.854 35.743 8.584 0 16.773-3.466 22.791-9.604v7.723h12.925V71.089h-12.925v7.723zm-42.72 26.139c0-12.871 9.866-23.168 21.409-23.168 11.445.099 21.311 10.297 21.311 23.168 0 12.872-9.866 23.07-21.409 23.07-11.346.099-21.311-10.099-21.311-23.07zM66.527 100.495c0-18.416 14.898-33.366 33.249-33.366 18.351 0 33.249 14.95 33.249 33.366s-14.898 33.367-33.249 33.367c-18.35 0-33.249-14.951-33.249-33.367z"
+                        fill="#3C4758"></path>
+                    <path
+                        d="M.133 167.128c0-18.416 14.898-33.366 33.248-33.366h33.25v33.366c0 18.416-14.899 33.366-33.25 33.366-18.35 0-33.248-14.95-33.248-33.366zM66.527.497v66.634h33.249c18.351 0 33.249-14.95 33.249-33.366S118.127.398 99.776.398H66.527v.1z"
+                        fill="#515E72"></path>
+                    <path
+                        d="M.133 33.862c0 18.415 14.898 33.366 33.248 33.366h33.25V.594H33.38C15.032.495.134 15.446.134 33.862z"
+                        fill="#3C4758"></path>
+                    <path
+                        d="M.133 100.494c0 18.416 14.898 33.367 33.248 33.367h33.25V67.227H33.38C15.032 67.128.134 82.08.134 100.494z"
+                        fill="#66758D"></path>
+                </svg></div>
+        </div>
+        <hr style="color: gray ; border-top-style: groove ; size: 3px;">
+    </header>
+    <section>
+        <div style="display: flex;  width: 1000px; margin-left: 300px;">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 639.014" width="100%"
+                height="100%">
+                <path data-name="Path 103"
+                    d="M285.467 346.636l-1.153-.26c31.958-141.342 172.446-230.015 313.788-198.057A262.383 262.383 0 01796 345.676l-1.152.262c-27.208-119.463-131.908-202.9-254.612-202.9-121.096.005-228.242 85.628-254.769 203.598z"
+                    fill="#e6e6e6"></path>
+                <path data-name="Path 104" d="M1080 614H0V0h1080zM2 612h1076V2H2z" fill="#3f3d56"></path>
+                <circle data-name="Ellipse 12" cx="74" cy="63" r="9" fill="#3c88ff"></circle>
+                <circle data-name="Ellipse 13" cx="101" cy="63" r="9" fill="#f2f2f2"></circle>
+                <circle data-name="Ellipse 14" cx="128" cy="63" r="9" fill="#f2f2f2"></circle>
+                <path data-name="Path 107" d="M1037 512.215V579h-71.119A86.746 86.746 0 011037 512.215z" fill="#e6e6e6">
+                </path>
+                <path data-name="Path 108"
+                    d="M911.82 183.1l-.64-.77-239.39 198.53-.77.64 165.87 200h2.6L673.84 381.76l237.08-196.61L1037 337.18v-3.14z"
+                    fill="#e6e6e6"></path>
+                <circle data-name="Ellipse 15" cx="704.534" cy="222.815" r="61.692" fill="#a0616a"></circle>
+                <path data-name="Path 111"
+                    d="M807.086 352.978l-34.33 99.534v.01l-16.545 47.99s-1.69 76.304-3.387 76.304c-.352 0-.853 1.1-1.416 2.833H587.012l13.194-140.19-.809-6.532-10.32-83.73a41.962 41.962 0 0127.73-44.72l17.244-6.063a136.524 136.524 0 0170.51-5.376 136.524 136.524 0 0157.61 25.653z"
+                    fill="#3c88ff"></path>
+                <path data-name="Path 113"
+                    d="M758.033 173.112s-19.587-42.438-57.133-32.645-58.761 24.484-60.393 39.174.816 36.726.816 36.726 4.081-30.2 30.2-23.668 66.922 1.632 66.922 1.632l6.529 58.761s7.345-10.61 15.506-4.081 23.669-62.841-2.447-75.899z"
+                    fill="#2f2e41"></path>
+                <path data-name="Path 114"
+                    d="M839.306 507.293s0 38.746-14.24 72.356h-48.933l.431-1.135 13.564-59.355-5.084-20.345-12.288-46.293v-.009a135.33 135.33 0 011.086-73.28l.556-1.872a34.102 34.102 0 0132.688-24.382s22.043 18.656 20.345 54.262z"
+                    fill="#3c88ff"></path>
+                <path data-name="Path 121"
+                    d="M980.387 122.039a33.376 33.376 0 1133.376-33.376 33.376 33.376 0 01-33.376 33.376zm0-65.2a31.824 31.824 0 1031.824 31.824 31.824 31.824 0 00-31.824-31.824z"
+                    fill="#ccc"></path>
+                <path data-name="Path 123" d="M1037 581.5H43v-549h994zm-992.159-1.788h990.318V34.288H44.84z"
+                    fill="#ccc"></path>
+                <path data-name="Path 122"
+                    d="M994.448 75.97l-.729-.729-13.554 13.555-13.555-13.555-.729.729 13.554 13.554-11.75 11.75.729.729 11.75-11.75 11.75 11.75.729-.729-11.75-11.75z"
+                    fill="#3f3d56"></path>
+                <path data-name="Path 146"
+                    d="M415.826 347.446H76.952A11.969 11.969 0 0065 359.398v130.768a11.969 11.969 0 0011.952 11.957h338.874a11.969 11.969 0 0011.952-11.952V359.398a11.969 11.969 0 00-11.952-11.952zm10.546 142.721a10.559 10.559 0 01-10.546 10.546H76.952a10.559 10.559 0 01-10.546-10.546V359.398a10.559 10.559 0 0110.546-10.546h338.874a10.559 10.559 0 0110.546 10.546z"
+                    fill="#3f3d56"></path>
+                <path data-name="Path 141"
+                    d="M396.003 385.445H218.481c-5.156 0-9.39 3.4-9.591 7.686a2.142 2.142 0 00-.015.314c.007 4.416 4.3 7.994 9.606 8h177.522c5.305 0 9.606-3.582 9.606-8s-4.3-8-9.606-8z"
+                    fill="#3c88ff"></path>
+                <path data-name="Path 141-2"
+                    d="M396.003 417.446H218.481c-5.156 0-9.39 3.4-9.591 7.686a2.142 2.142 0 00-.015.314c.007 4.416 4.3 7.994 9.606 8h177.522c5.305 0 9.606-3.582 9.606-8s-4.301-8-9.606-8z"
+                    fill="#3c88ff"></path>
+                <path data-name="Path 141-3"
+                    d="M396.003 449.446H218.481c-5.156 0-9.39 3.4-9.591 7.686a2.142 2.142 0 00-.015.314c.007 4.416 4.3 7.994 9.606 8h177.522c5.305 0 9.606-3.582 9.606-8s-4.3-8-9.606-8z"
+                    fill="#3c88ff"></path>
+                <path data-name="Path 140"
+                    d="M134.988 467.445a42.353 42.353 0 1142.353-42.353 42.353 42.353 0 01-42.353 42.353zm0-83.245a40.892 40.892 0 1040.892 40.892 40.892 40.892 0 00-40.892-40.892z"
+                    fill="#3f3d56"></path>
+                <path data-name="Path 118" d="M296 563h-36v-36h36zm-34-2h32v-32h-32z" fill="#ff6584"></path>
+                <path data-name="Path 119"
+                    d="M217.185 551.525l-12.861-11.788 1.352-1.474 11.139 10.212 25.353-38.03 1.664 1.11z"
+                    fill="#3f3d56"></path>
+                <path data-name="Path 120" d="M230 536v25h-32v-32h25v-2h-27v36h36v-27z" fill="#e5e5e5"></path>
+                <circle data-name="Ellipse 18" cx="119.5" cy="438.5" r="23.5" fill="#3c88ff"></circle>
+                <path
+                    d="M426.901 619.09a18.724 18.724 0 0122.939-17.267l35.48-56.29 14.269 31.495-35.88 48.626a18.825 18.825 0 01-36.808-6.564z"
+                    fill="#a0616a"></path>
+                <path data-name="Path 115"
+                    d="M612.177 310.868l-1.958.346c-21.997 3.885-40.648 18.905-48.35 39.873q-.347.943-.665 1.897l-13.566 61.044-93.266 178.053 28.831 16.955s79.7-93.265 89.874-125.485l40.967-78.785a25.532 25.532 0 002.86-12.76l-3.07-79.8a1.413 1.413 0 00-1.658-1.338z"
+                    fill="#3c88ff"></path>
+            </svg>
+
+        </div>
+    </section>
+    <div>
+        <button type="button" title="for watching tutorial"
+            style="border-radius: 30%; display: flex; margin-left: 70vh; ">Watch the video(5 min)</button>
+    </div>
+    <br>
+    <br>
+    <pre
+        style="display: flex; color: rgb(73, 73, 228); justify-content: center; font-size:30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">GROW YOUR REVENUE</pre>
+    <pre
+        style="display: flex; justify-content: center; font-size: 60px; font-family: Georgia, 'Times New Roman', Times, serif;">Transform your business</pre>
+    <section class="con">
+        <div class="c1" style="display: flex;">
+            <ol>
+                <li class="c1"><b> Designers </b></li>
+                <pre class="c">                    Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum
+                     excepteur cillum consequat consectetur duis magna qui eu 
+                     consequat occaecat. Deserunt nisi sit.</pre>
+                <li class="c1"> <b> Developers</b></li>
+                <pre class="c">                     Pariatur consectetur laboris exercitation duis laboris. 
+                     Commodo duis fugiat magna fugiat et ut anim elit.Tempor 
+                     aute ex qui tempor tempor.</pre>
+                <li class="c1"> <b>Product owners</b> </li>
+                <pre class="c">                    Ullamco consectetur ipsum eiusmod nisi adipisicing sint anim 
+                     dolore aute excepteur. Voluptate ea ullamco sunt eu elit qui
+                     aliquip. Adipisicing.</pre>
+            </ol>
+
+        </div>
+        <div class="c2" style="display: flex; width: 50%;">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 769.411 524.375" width="100%"
+                height="100%">
+                <circle cx="174.757" cy="6.813" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="209.246" cy="6.813" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="243.735" cy="6.813" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="278.224" cy="6.813" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="312.713" cy="6.813" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="174.757" cy="41.735" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="209.246" cy="41.735" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="243.735" cy="41.735" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="278.224" cy="41.735" r="6.813" fill="#6a7aff"></circle>
+                <circle cx="312.713" cy="41.735" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="381.691" cy="41.735" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="174.757" cy="76.657" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="209.246" cy="76.657" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="243.735" cy="76.657" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="278.224" cy="76.657" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="312.713" cy="76.657" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="174.757" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="209.246" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="243.735" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="278.224" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="312.713" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="347.202" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="381.691" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="416.18" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="450.669" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="485.158" cy="111.579" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="312.713" cy="146.501" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="347.202" cy="146.501" r="6.813" fill="#6a7aff"></circle>
+                <circle cx="381.691" cy="146.501" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="416.18" cy="146.501" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="450.669" cy="146.501" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="485.158" cy="146.501" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="312.713" cy="181.423" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="347.202" cy="181.423" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="381.691" cy="181.423" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="416.18" cy="181.423" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="450.669" cy="181.423" r="6.813" fill="#6a7aff"></circle>
+                <circle cx="485.158" cy="181.423" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="312.713" cy="216.345" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="347.202" cy="216.345" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="381.691" cy="216.345" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="416.18" cy="216.345" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="450.669" cy="216.345" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="485.158" cy="216.345" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="174.757" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="209.246" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="243.735" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="278.224" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="312.713" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="347.202" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="381.691" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="416.18" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="450.669" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="485.158" cy="251.267" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="174.753" cy="286.188" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="209.246" cy="286.189" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="174.753" cy="321.11" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="209.246" cy="321.111" r="6.813" fill="#e6e6e6"></circle>
+                <circle cx="278.224" cy="321.111" r="6.813" fill="#e6e6e6"></circle>
+                <path
+                    d="M622 80.384H352a5.006 5.006 0 01-5-5V8.408a5.006 5.006 0 015-5h270a5.006 5.006 0 015 5v66.976a5.006 5.006 0 01-5 5zM352 5.408a3.003 3.003 0 00-3 3v66.976a3.003 3.003 0 003 3h270a3.003 3.003 0 003-3V8.408a3.003 3.003 0 00-3-3z"
+                    fill="#e6e6e6"></path>
+                <circle cx="387" cy="41.896" r="21" fill="#6a7aff"></circle>
+                <path
+                    d="M435.5 27.896a3.5 3.5 0 100 7h93a3.5 3.5 0 100-7zm0 21a3.5 3.5 0 100 7h165a3.5 3.5 0 100-7zM275 216.384H5a5.006 5.006 0 01-5-5v-66.976a5.006 5.006 0 015-5h270a5.006 5.006 0 015 5v66.976a5.006 5.006 0 01-5 5zM5 141.408a3.003 3.003 0 00-3 3v66.976a3.003 3.003 0 003 3h270a3.003 3.003 0 003-3v-66.976a3.003 3.003 0 00-3-3z"
+                    fill="#e6e6e6"></path>
+                <circle cx="40" cy="177.896" r="21" fill="#6a7aff"></circle>
+                <path d="M88.5 163.896a3.5 3.5 0 000 7h97a3.5 3.5 0 000-7zm0 21a3.5 3.5 0 000 7h165a3.5 3.5 0 000-7z"
+                    fill="#e6e6e6"></path>
+                <path
+                    d="M519 363.384H249a5.006 5.006 0 01-5-5v-66.976a5.006 5.006 0 015-5h270a5.006 5.006 0 015 5v66.976a5.006 5.006 0 01-5 5zm-270-74.976a3.003 3.003 0 00-3 3v66.976a3.003 3.003 0 003 3h270a3.003 3.003 0 003-3v-66.976a3.003 3.003 0 00-3-3z"
+                    fill="#3f3d56"></path>
+                <circle cx="284" cy="324.896" r="21" fill="#6a7aff"></circle>
+                <path
+                    d="M332.5 310.896a3.5 3.5 0 000 7h89a3.5 3.5 0 000-7zm0 21a3.5 3.5 0 000 7h165a3.5 3.5 0 000-7zm331.75 14.502c-11.726 35.177-59.695-2.132-59.695-2.132l12.791-133.247c19.188-14.924 39.442-2.132 39.442-2.132z"
+                    fill="#e6e6e6"></path>
+                <path fill="#ffb8b8" d="M661.731 464.458l16.345.172-4.083 47.115-12.26.001-.002-47.288z"></path>
+                <path d="M658.605 507.742h24.144a15.404 15.404 0 0115.387 15.387v.5h-39.53z" fill="#2f2e41"></path>
+                <path fill="#ffb8b8" d="M617.421 464.458l-18.094-.001 5.832 47.288 12.26.001.002-47.288z"></path>
+                <path
+                    d="M581.015 523.629v-.5a15.387 15.387 0 0115.387-15.387l24.144.001v15.888zm79.613-20.045L639.215 378.76l-19.84 123.214-20.1 1.117-5.36-165.086.403-.09c3.324-.745 81.537-17.924 94.359 6.652l.065.124-10.701 159.453z"
+                    fill="#2f2e41"></path>
+                <circle cx="637.934" cy="170.843" r="24.561" fill="#ffb8b8"></circle>
+                <path
+                    d="M658.568 356.925c-2.88-.798-4.954-4.104-6.53-10.406-.271-1.086-25.771-109.711-4.206-129.391l4.97-13.808 6.803 4.535c2.407.022 27.02.645 29.124 16.423 2.06 15.443 7.666 118.913 2.03 125.349a1.219 1.219 0 01-.926.469c-5.71 0-7.444-6.336-7.852-8.356-1.357.562-5.402 2.629-12.048 9.275-4.117 4.118-7.345 6.09-10.012 6.09a5.037 5.037 0 01-1.353-.18z"
+                    fill="#2f2e41"></path>
+                <path
+                    d="M605.267 351.015c-6.648-6.648-10.693-8.714-12.049-9.275-.407 2.02-2.14 8.356-7.851 8.356a1.219 1.219 0 01-.927-.47c-5.635-6.435-.029-109.905 2.03-125.348 2.104-15.778 26.718-16.4 29.125-16.423l6.802-4.535 4.971 13.808c21.564 19.678-3.935 128.305-4.207 129.391-1.575 6.302-3.65 9.608-6.529 10.406a5.037 5.037 0 01-1.353.18c-2.667 0-5.895-1.973-10.012-6.09zm52.944-166.143a25.204 25.204 0 00-12.207-45.54c-2.261-.226-4.696-.192-6.571-1.477-1.665-1.14-2.562-3.119-4.093-4.435a8.929 8.929 0 00-6.926-1.746 25.062 25.062 0 00-6.963 2.287c-5.446 2.429-11.235 5.417-13.713 10.84-2.147 4.698-1.2 10.491 1.84 14.668a20.41 20.41 0 0013.016 7.685 32.535 32.535 0 0015.285-1.376c3.241-1.02 6.441-2.41 9.838-2.524a13.37 13.37 0 0110.145 22.564"
+                    fill="#2f2e41"></path>
+                <path
+                    d="M524.341 330.981a10.8 10.8 0 0010.548-11.048l14.323-24.166-11.066-10.146-15.088 23.81a10.801 10.801 0 001.283 21.55zm166.173 26.475a10.8 10.8 0 003.15-14.947l-.549-28.086-14.75-2.798-.29 28.186a10.801 10.801 0 0012.439 17.645z"
+                    fill="#ffb8b8"></path>
+                <path
+                    d="M528.699 292.124l-.167-.266.165-.266c21.484-34.498 66.58-77.593 67.032-78.024l.143-.136 5.57-.057 6.02 15c-1.874 3.606-52.395 74.11-59.066 78.786a4.603 4.603 0 01-3.685.694 9.699 9.699 0 01-3.124-1.33c-6.157-3.814-12.573-13.902-12.888-14.401zm146.859 39.366a4.57 4.57 0 01-2.707-2.484c-3.217-7.505 10.569-102.302 11.157-106.334l.112-.763 4.66 2.954.046.2c.137.606 13.712 60.998 10.033 101.127l-.027.287-.261.12c-.56.26-11.868 5.454-19.404 5.454a10.192 10.192 0 01-3.61-.56z"
+                    fill="#2f2e41"></path>
+                <path d="M768.411 524.375h-266a1 1 0 010-2h266a1 1 0 010 2z" fill="#3f3d56"></path>
+            </svg>
+        </div>
+    </section>
+    <br>
+    <div style="display: flex;  flex-direction: column;">
+        <span
+            style=" display: flex; color: rgb(68, 68, 186); font-size: x-large; justify-content: center;">Features</span>
+        <span style="display: flex; justify-content: center; font-size:10vh;">How we change the game</span>
+    </div>
+    <div class="rc" style="display: flex; flex-wrap: wrap;justify-content: space-around;">
+        <div class="">
+            <ol>
+                <li class="rc1">Increase sales</li>
+                <pre class="prrc">      Consectetur pariatur irure exercitation sit 
+      amet id consectetur consecteturmagna e
+      Lorem labore qui velit.</pre>
+            </ol>
+        </div>
+        <div class="">
+            <ol>
+                <li class="rc1">Enterprise-ready</li>
+                <pre class="prrc">      Labore duis pariatur est exercitation laboris
+      cupidatat amet cillum. Amet nisi ullamco.</pre>
+            </ol>
+        </div>
+        <div class="">
+            <ol>
+                <li class="rc1">Unlimited growth</li>
+                <pre class="prrc">      Elit deserunt nisi esse duis cupidatat proident
+      sit minim mollit officia pariatur incididunt 
+      in tempor.</pre>
+            </ol>
+        </div>
+        <div class="">
+            <ol>
+                <li class="rc1">Recommended by experts</li>
+                <pre class="prrc">       Velit sit tempor pariatur quis pariatur incididunt
+       culpa dolor voluptate officia incididunt velit dolore.</pre>
+            </ol>
+        </div>
+        <div class="">
+            <ol>
+                <li class="rc1">Modern platform</li>
+                <pre class="prrc">      Laboris elit consectetur sint nisi eu mollit proident
+      sit magna velit adipisicing consequat amet reprehenderit.</pre>
+            </ol>
+        </div>
+        <div class="">
+            <ol>
+                <li class="rc1">Integrations</li>
+                <pre class="prrc">        Nostrud excepteur incididunt proident sit nulla ipsum
+        sunt nostrud est esse adipisicing irure officia consectetur.</pre>
+            </ol>
+        </div>
+    </div>
+
+    <section class="sec2" style="width: 100wh ;height:800px; background-color: black;">
+        <div>
+            <p style="display: flex;justify-content: center; color: white; font-size: xx-large; padding-top: 30px; 
+              font-family: 'Yuji Hentaigana Akebono', cursive;
+ ">What Will You Build?</p>
+
+            <p style="display: flex; color: grey; justify-content: center; font-size: large;">Don't just take our word
+                for it - see what leaders in digital are saying </p>
+        </div>
+        <div style="display: flex; flex-wrap: wrap;  justify-content:center;">
+            <img class="ear" src="../css/img/case-1.jpg" alt="" style="width: 25%; padding: 9px;">
+            <img class="chess" src="../css/img/case-2.jpg" alt="" style="width: 25%;padding: 9px;">
+            <img class="clock" src="../css/img/case-3.jpg" alt="" style="width: 25%;padding:9px;">
+        </div>
+        <a class="casestudy" href="#" style=" display: flex; justify-content: center; font-size: large; ">see all case
+            studies</a>
+    </section>
+    <section>
+        <p style="display: flex; padding-left: 200px; padding-right: 200px; padding-top: 100px;">Anim labore ut amet
+            cupidatat pariatur pariatur labore ad est. Fugiat eiusmod dolore aliquip aute duis esse excepteur amet. Sit
+            cupidatat ipsum culpa nisi esse ipsum culpa in consectetur. Enim incididunt do sunt ex do. Proident duis
+            nulla minim sunt irure est magna nostrud Lorem consectetur irure.</p>
+        <br>
+        <div style="display: flex; padding-left: 200px;">
+            <img src="../css/img/case-1.jpg" alt="" style="border-radius:50%; width: 200px;">
+            <p><b>Its Hadphones</b>
+                <br>
+                <br>
+                <span>its a very comfortable to listen a music ,its nota harm full for our ear</span>
+            </p>>
+        </div>
+        <div>
+
+        </div>
+    </section>
+    <hr style="color: #3c4758; border: outset;">
+    <br>
+    <section style="display: flex; justify-content:space-around;">
+        <div class="conformation" style="padding-left: 200px;">
+            <h1 style="font-size: xx-large;">Are You Ready?</h1>
+
+            <br>
+            <p style="padding-right: 200px;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptates maiores labore
+                architecto
+                magnam, nulla mollitia sequi cum delectus velit, et obcaecati eveniet laborum quam voluptatibus? Enim
+                cum
+                vero dolorem!
+            </p><br>
+            <span style="color: rgb(67, 67, 226); font-size: larger;">what is included</span><br>
+
+            <div class="wii" style="display: flex; flex-direction: row; font-size: large;">
+                <div class="info11">
+                    <ol>
+                        <li>Harshil</li>
+                        <li>Dhruv</li>
+                        <li>Rahul</li>
+                        <li>Chirag</li>
+
+                    </ol>
+                </div>
+                <div class="info11">
+                    <ol>
+                        <li>Om</li>
+                        <li>Aman</li>
+                        <li>Prerna</li>
+                        <li>Tannu</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="price" style="padding-right: 120px;">
+            <p style="font-size: xx-large; font-family:Georgia, 'Times New Roman', Times, serif;"><b>if you order
+                    now</b></p>
+            <p style="font-size: x-large;"><b>$99/mo</b></p>
+            <input type="button" value="Contact Sale" class="butsell" style="color: rgb(77, 77, 190);">
+
+        </div>
+
+    </section>
+    <hr>
+    <footer style="height: 500px;">
+        <h1 style="color: rgb(102, 102, 231);"><img src="../css/img/logo.svg" alt=""
+                style=" margin-left: 200px; width: 60px;">STARTED</h1>
+        <br>
+        <br>
+        <div class="fut" style="display: flex;justify-content: space-between;">
+
+            <div class="abt" style="display: flex; flex-direction: row; justify-content: space-between; margin-left: 200px;">
+                <div class="product">
+<p>Product</p>
+<ol>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+</ol>
+                </div>
+                <div class="resources">
+<p>Resources</p>
+<ol>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+</ol>
+                </div>
+                <div class="aboutus">
+<p>About Us</p>
+<ol>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+    <li><a href="#">features</a></li>
+</ol>
+                </div>
+            </div>
+            <div class="mail" style=" border: 2px solid black; margin: 40px; padding: 50px;margin-right: 200px; ">
+                <label for="son">SUBSCRIBE OUR NEWSLETTER</label><br><br>
+                <input type="email" name="" id="" placeholder="enter Your mail">
+            
+
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

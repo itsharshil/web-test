@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formcss</title>
+    <style>
+        input[type=text]{
+            border: 2px solid red;
+            background-color: aqua;
+            margin: 10px;
+            padding: 5px;
+            width: 50%;
+        }
+        input[type=text]:focus{
+            background-color: blueviolet;
+        }
+         
+        .t1{
+            background-image: url("../css/img/search.jpg");
+            background-size: 30px;
+            background-repeat: no-repeat;
+            
+        }
+        textarea{
+            resize: none;
+        }
+        #country{
+            margin: 10px;
+            padding: 5px;
+            width: 20px;
+        }
+        input[type=button]
+        {
+            margin: 20px;
+            padding: 20px;
+            color: azure;
+            background-color: aqua;
+            border: none;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">last name</label>
+        <input type="text" name="lname" id="lname">
+        <br>
+        <label for="lname">Search </label>
+        <input style="background-color: white;" class="t1" type="text" name="lname" id="lname" >
+        <br> <br>
+        <textarea>some text...</textarea>
+        <br>
+        <select name="country" id="country">
+            <option value="a">Australia</option>
+            <option value="i">India</option>
+            <option value="c">Canada</option>
+        </select>
+        <br>
+        <input type="button" value="button">
+    </form>
+</body>
+</html>

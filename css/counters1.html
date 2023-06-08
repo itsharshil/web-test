@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counters</title>
+    <style>
+        body{
+            counter-reset: name 0;
+        }
+        h1{
+            counter-reset: sub 0;
+        }
+        h1::before{
+            content: "no"counter(name) ":";
+            counter-increment: name 1;
+        }
+        p::before{
+            content: "NO" counter(sub) ":";
+            counter-increment: sub 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>name</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, minus mollitia, at repellat nam incidunt facere est eveniet natus autem inventore rerum dignissimos nulla officia? Doloribus consectetur porro consequatur aliquid.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta pariatur quasi odio quis atque itaque fugiat possimus quam dolore nisi nobis sapiente eligendi in maxime voluptatibus, aspernatur, amet deleniti aut.</p>
+    <h1>name</h1>
+    <p>    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cum sint quibusdam deleniti, unde reprehenderit laborum ipsa odit? Culpa cupiditate consequuntur saepe delectus odio in quia ducimus incidunt dicta hic.</p>
+
+    <h1>name</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eos minima quidem molestiae quam, enim eveniet repellat mollitia unde perferendis eius, ad qui odit porro voluptatem quos, error ut. Molestiae.
+    </p>
+</body>
+</html>
